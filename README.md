@@ -1,39 +1,67 @@
-## 💻 Web Scrapping AI Agent
-This Streamlit app allows you to scrape a website using OpenAI API and the scrapegraphai library. Simply provide your OpenAI API key, enter the URL of the website you want to scrape, and specify what you want the AI agent to extract from the website.
+# 🌐 AI-Powered Web Scraper
 
-### Features
-- Scrape any website by providing the URL
-- Utilize OpenAI's LLMs (GPT-3.5-turbo or GPT-4) for intelligent scraping
-- Customize the scraping task by specifying what you want the AI agent to extract
+A powerful Streamlit application that leverages OpenAI's advanced language models to intelligently extract and process web content. Transform any website into structured data with natural language instructions.
 
-### How to get Started?
+## ✨ Key Features
 
-1. Clone the GitHub repository
+- **Universal Web Compatibility**: Extract data from virtually any website with a simple URL
+- **AI-Enhanced Processing**: Powered by OpenAI's cutting-edge language models (GPT-3.5-turbo or GPT-4)
+- **Custom Extraction**: Define exactly what information you need using natural language prompts
+- **User-Friendly Interface**: Intuitive Streamlit-based interface for seamless interaction
 
-```bash
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-cd awesome-llm-apps/advanced_tools_frameworks/web_scrapping_ai_agent
-```
-2. Install the required dependencies:
+## 🚀 Quick Start Guide
 
-```bash
-pip install -r requirements.txt
-```
-3. Get your OpenAI API Key
+### Prerequisites
+- Python 3.7+
+- OpenAI API key
+- Git (for repository cloning)
 
-- Sign up for an [OpenAI account](https://platform.openai.com/) (or the LLM provider of your choice) and obtain your API key.
+### Installation
 
-4. Run the Streamlit App
-```bash
-streamlit run ai_scrapper.py
-```
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Yavic2024/ai-web-scrapping-agent.git
+      ```
 
-### How it Works?
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-- The app prompts you to enter your OpenAI API key, which is used to authenticate and access the OpenAI language models.
-- You can select the desired language model (GPT-3.5-turbo or GPT-4) for the scraping task.
-- Enter the URL of the website you want to scrape in the provided text input field.
-- Specify what you want the AI agent to extract from the website by entering a user prompt.
-- The app creates a SmartScraperGraph object using the provided URL, user prompt, and OpenAI configuration.
-- The SmartScraperGraph object scrapes the website and extracts the requested information using the specified language model.
-- The scraped results are displayed in the app for you to view
+3. **Set Up API Access**
+   - Create an account at [OpenAI](https://platform.openai.com/)
+   - Generate your API key from the dashboard
+
+4. **Launch the Application**
+   ```bash
+   streamlit run ai_scrapper.py
+   ```
+
+## 🛠 How It Works
+
+1. **Authentication**
+   - Input your OpenAI API key to authenticate with the service
+   - Select your preferred language model (GPT-3.5-turbo or GPT-4)
+
+2. **Content Extraction**
+   - Provide the target website URL
+   - Specify your data requirements using natural language
+
+3. **AI Processing**
+   - The application constructs a SmartScraperGraph instance
+   - The selected LLM processes the webpage according to your instructions
+   - Structured data is extracted and formatted
+
+4. **Results**
+   - View the processed output directly in the application
+   - Results are presented in a clean, readable format
+
+## 📝 Usage Tips
+
+- Be specific in your prompts for more accurate results
+- For complex websites, try breaking down your requests into multiple, simpler queries
+- Monitor your OpenAI API usage through the [OpenAI Dashboard](https://platform.openai.com/account/usage)
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
